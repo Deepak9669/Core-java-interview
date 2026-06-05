@@ -4,11 +4,9 @@ public class TestAccount {
 
 	public static void main(String[] args) throws CloneNotSupportedException {
 
-		Account a1 = new Account();
+		Account a1 = new Account(10);
 
-		a1.balance = 10;
-
-		Account a2 = (Account) a1;
+		Account a2 = (Account) a1.clone();
 
 		a2.balance = 20;
 

@@ -14,7 +14,7 @@ public class TestInterface implements MakeInterface {
 		System.out.println(t.sum(10, 20));
 
 		MakeInterface.staticMethod();
-		
+
 		t.defaultMethod();
 
 	}

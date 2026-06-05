@@ -18,14 +18,13 @@ public class Account {
 		System.out.println("Balance = " + balance);
 	}
 
-	public void withdrawl(int amount) {
-
-		balance = balance - amount;
-
-		if (balance >= 0) {
-			System.out.println("Balance = " + balance);
-		} else {
-			System.out.println("Insufficient Balance");
-		}
-	}
+	 public void withdrawl(int amount) {
+		   if(amount> balance) {
+			   System.out.println("insufficent fund transfer:");
+			   
+		   }else {
+			   balance = balance -amount;
+				System.out.println("after withdrawal:"+getBalance());
+		   }
+	   }
 }

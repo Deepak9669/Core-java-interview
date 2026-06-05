@@ -14,7 +14,7 @@ public class TestAbsClass extends AbstractClass {
 
 	public static void main(String[] args) {
 
-		TestAbsClass t = new TestAbsClass("Mohit");
+		TestAbsClass t = new TestAbsClass("Deepak");
 
 		t.simple();
 		t.show();

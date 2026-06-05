@@ -2,7 +2,7 @@ package oop;
 
 public interface MakeInterface {
 
-	public static final String NAME = "Mohit";
+	public static final String NAME = "Deepak";
 
 	public static final int NUM = 1;
 
@@ -16,5 +16,4 @@ public interface MakeInterface {
 		System.out.println("Default Method");
 	}
 
-	
 }

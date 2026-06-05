@@ -17,7 +17,7 @@ public class Customer implements Cloneable {
 
 		Customer c = (Customer) super.clone();
 
-//		c.account = (Account) account.clone();
+		c.account = (Account) account.clone();
 
 		return c;
 	}

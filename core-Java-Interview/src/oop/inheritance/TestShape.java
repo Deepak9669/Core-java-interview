@@ -4,27 +4,19 @@ public class TestShape {
 
 	public static void main(String[] args) {
 
-		Shape s = new Shape();
-
-		s.area();
-
 		Rectangle r = new Rectangle();
 
+		r.setLength(5);
+		r.setWidth(5);
+
+		Circle c = new Circle();
+
+		c.setRadius(5);
+
+		r.setColour("Red");
+		r.setBorderWidth("Five");
+		System.out.println(r.getColour() + "\n" + r.getBorderWidth());
 		r.area();
-	
-		Shape shape = new Rectangle();
-
-		Rectangle rectangle = (Rectangle) shape;
-
-		rectangle.setLength(5);
-		rectangle.setWidth(5);
-		
-		rectangle.area();
-
-		shape.area();
-		
-		shape.setColour("Red");
-		shape.setBorderWidth("Five");
-		System.out.println(shape.getColour() + " " + shape.getBorderWidth());
+		c.area();
 	}
 }
