@@ -11,7 +11,7 @@ public class TestStringIndexOutOfBound {
 
 			System.out.println(10 / 0);
 			System.out.println(a[3]);
-			System.out.println(s.charAt(5));
+			System.out.println(s.charAt(4));
 
 		} catch (ArrayIndexOutOfBoundsException e) {
 			System.out.println(e);

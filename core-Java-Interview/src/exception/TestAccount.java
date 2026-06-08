@@ -2,7 +2,7 @@ package exception;;
 
 public class TestAccount {
 
-	public static void main(String[] args) {
+	public static void main(String[] args)  {
 
 		Account a = new Account();
 
