@@ -20,7 +20,7 @@ public class TestNoSuchElement {
 		}
 
 		try {
-			System.out.println(it.next());
+		System.out.println(it.next());
 		} catch (NoSuchElementException e) {
 			System.out.println(e);
 		}finally {

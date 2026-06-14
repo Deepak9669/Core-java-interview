@@ -7,6 +7,9 @@ public class TestAtoZ {
 	public static void main(String[] args) {
 
 		Stack s = new Stack();
+		
+		
+		
 
 		for (char ch = 'a'; ch <= 'z'; ch++) {
 			System.out.println(s.push(ch));

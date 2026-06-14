@@ -16,7 +16,11 @@ public class TestAccount {
 
 		} catch (InsufficientBalance e) {
 			System.out.println(e);
+			System.exit(0);
+		}finally {
+			System.out.println("final");
 		}
+		
 		
 	}
 }

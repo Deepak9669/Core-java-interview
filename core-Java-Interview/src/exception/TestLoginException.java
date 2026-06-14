@@ -8,7 +8,7 @@ public class TestLoginException {
 
 		try {
 
-			if (name.equals("admin")) {
+			if (name.equals("admim")) {
 				System.out.println("Valid User");
 			} else {
 

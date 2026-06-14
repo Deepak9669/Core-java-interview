@@ -9,5 +9,7 @@ public class TestObject {
 		int a = 100;
 
 		Object obj = s;
+		
+		System.out.println(obj);
 	}
 }

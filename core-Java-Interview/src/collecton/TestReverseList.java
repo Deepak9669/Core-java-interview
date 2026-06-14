@@ -1,6 +1,7 @@
 package collecton;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class TestReverseList {
@@ -15,10 +16,17 @@ public class TestReverseList {
 		list.add(4);
 		list.add(5);
 
-		for (int i = list.size() - 1; i >= 0; i--) {
-
-			System.out.println(list.get(i));
-		}
+//		Collections.reverse(list);
+		
+		Collections.shuffle(list);
+		
+		System.out.println(list);
+		
+		
+//		for (int i = list.size() - 1; i >= 0; i--) {
+//
+//			System.out.println(list.get(i));
+//		}
 
 	}
 }

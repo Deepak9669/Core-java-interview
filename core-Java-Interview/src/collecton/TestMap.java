@@ -11,7 +11,8 @@ public class TestMap {
 
 		map.put(1, "One");
 		map.put(2, "Two");
-		map.put(3, "Three");
+		map.put(null, "Three");
+		map.put(null, "T");
 
 //		map.clear();
 		

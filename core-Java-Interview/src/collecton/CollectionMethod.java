@@ -30,6 +30,9 @@ public class CollectionMethod {
 		System.out.println(c.isEmpty());
 		c.remove(10);
 		System.out.println(c);
+		c.clear();
+		System.out.println(c);
+		c.isEmpty();
 		
 	}
 }

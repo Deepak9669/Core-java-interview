@@ -14,7 +14,7 @@ public class TestQueue {
 		q.add(300);
 	
 
-		System.out.println(q.offer(300));
+		System.out.println(q.offer(400));
 		
 
 		System.out.println(q);

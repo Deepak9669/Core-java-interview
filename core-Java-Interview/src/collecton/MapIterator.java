@@ -37,8 +37,14 @@ public class MapIterator {
 		t.put(3, "Shyam");
 		t.put(2, "Lakhan");
 		t.put(4, null);
+		t.put(5, null);
+		
 
 		for (Object o : t.keySet()) {
+			System.out.println(o);
+		}
+		
+		for (Object o : t.entrySet()) {
 			System.out.println(o);
 		}
 	}

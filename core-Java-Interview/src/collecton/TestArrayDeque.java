@@ -29,5 +29,9 @@ public class TestArrayDeque {
 		System.out.println(q.poll());
 
 		System.out.println(q);
+		
+		System.out.println(q.peekFirst());
+		
+		System.out.println(q);
 	}
 }

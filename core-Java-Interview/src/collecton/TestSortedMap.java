@@ -15,11 +15,11 @@ public class TestSortedMap {
 		m.put(4, "LakhanPrajapat");
 		
 
-//		System.out.println(m.lastKey());
-//		System.out.println(m.firstKey());
-//		System.out.println(m.tailMap(2));
-//		System.out.println(m.subMap(2, 4));
-//		System.out.println(m.entrySet());
+		System.out.println(m.lastKey());
+		System.out.println(m.firstKey());
+		System.out.println(m.tailMap(3));
+		System.out.println(m.subMap(2, 4));
+		System.out.println(m.entrySet());
 
 		System.out.println(m);
 	}

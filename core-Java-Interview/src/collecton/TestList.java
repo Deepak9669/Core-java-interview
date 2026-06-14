@@ -16,12 +16,14 @@ public class TestList {
 		list.add('e');
 		list.add('f');
 		
+		
 		List l = new ArrayList();
 		
 		l.add('d');
 		l.add('e');
 		l.add('f');
 		l.add('z');
+		
 
 //		list.clear();
 //		list.remove(1);
@@ -34,6 +36,7 @@ public class TestList {
 		System.out.println(list.get(2));
 
 		System.out.println(list.contains('a'));
+		System.out.println(list.retainAll(l));
 		System.out.println(list.containsAll(l));
 
 	}

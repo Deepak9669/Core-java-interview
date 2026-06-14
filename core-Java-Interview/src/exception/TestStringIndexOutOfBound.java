@@ -9,9 +9,9 @@ public class TestStringIndexOutOfBound {
 
 		try {
 
-			System.out.println(10 / 0);
-			System.out.println(a[3]);
-			System.out.println(s.charAt(4));
+//			System.out.println(10 / 0);
+//			System.out.println(a[4]);
+			System.out.println(s.charAt(6));
 
 		} catch (ArrayIndexOutOfBoundsException e) {
 			System.out.println(e);

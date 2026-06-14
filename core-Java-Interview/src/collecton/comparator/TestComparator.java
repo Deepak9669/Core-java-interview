@@ -29,20 +29,20 @@ public class TestComparator {
 
 		Collections.sort(list, byIdName);
 
-//		Iterator it = list.iterator();
-//		
-//		while (it.hasNext()) {
-//			System.out.println(it.next());
-//		}
+		Iterator it1 = list.iterator();
+		
+		while (it1.hasNext()) {
+			System.out.println(it1.next());
+		}
 
 		EmployeeSortIDNameSalary byAll = new EmployeeSortIDNameSalary();
 
-//		Collections.sort(list, byAll);
-//
-//		Iterator it = list.iterator();
-//
-//		while (it.hasNext()) {
-//			System.out.println(it.next());
-//		}
+		Collections.sort(list, byAll);
+
+		Iterator it2 = list.iterator();
+
+		while (it2.hasNext()) {
+			System.out.println(it2.next());
+		}
 	}
 }

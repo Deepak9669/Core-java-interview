@@ -7,7 +7,7 @@ public class TestShape {
 		double totalArea = 0;
 
 		for (int i = 0; i < s.length; i++) {
-//			System.out.println("area: " + s[i].area());
+		System.out.println("area: " + s[i].area());
 			totalArea = totalArea + s[i].area();
 
 		}
