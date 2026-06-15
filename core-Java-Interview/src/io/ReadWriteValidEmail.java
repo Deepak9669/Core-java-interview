@@ -15,7 +15,6 @@ public class ReadWriteValidEmail {
 		BufferedReader br = new BufferedReader(source);
 		BufferedWriter bw = new BufferedWriter(target);
 		
-		
 		String email = br.readLine();
 		
 		while(email != null) {

@@ -9,7 +9,7 @@ public class ReadWriteLinebyLine {
 
 	public static void main(String[] args) throws Exception {
 		
-		BufferedReader reader = new BufferedReader(new FileReader("keyboard.txt"));
+		BufferedReader reader = new BufferedReader(new FileReader("D:\\io\\keyboard.txt"));
 		
 		BufferedWriter writer = new BufferedWriter(new FileWriter("D:\\io\\output.txt"));
 		
@@ -29,4 +29,3 @@ public class ReadWriteLinebyLine {
 		writer.close();
 	}
 }
-

@@ -6,10 +6,8 @@ import java.util.Scanner;
 public class ReadByScanner {
 	public static void main(String[] args) throws Exception {
 
-		System.out.println(System.getProperty("user.dir"));
-
+		FileReader file = new FileReader("D:\\io\\keyboard.txt");
 		
-		FileReader file = new FileReader("keyboard.txt");
 		Scanner sc = new Scanner(file);
 		
 		while(sc.hasNext()) {

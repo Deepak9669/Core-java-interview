@@ -3,11 +3,11 @@ package io;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 
-public abstract class TestBinary {
+public class TestBinary {
 
 	public static void main(String[] args) throws Exception {
 
-		FileInputStream in = new FileInputStream("C:\\Users\\admin\\OneDrive\\Pictures");
+		FileInputStream in = new FileInputStream("D:\\io\\welcome.jpg");
 
 		FileOutputStream out = new FileOutputStream("D:\\io\\welcomecopy.jpg");
 

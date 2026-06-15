@@ -10,7 +10,7 @@ public class ReadWriteByKeyboard {
 		
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 		
-		FileWriter fw = new FileWriter("keyboard.txt");
+		FileWriter fw = new FileWriter("D:\\io\\sandeep.txt");
 		
 		System.out.println("Enter Here.......");
 		

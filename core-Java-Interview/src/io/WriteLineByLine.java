@@ -7,7 +7,7 @@ public class WriteLineByLine {
 
 	public static void main(String[] args) throws Exception {
 
-		FileWriter file = new FileWriter("keyboard.txt");
+		FileWriter file = new FileWriter("D:\\io\\keyboard.txt");
 
 		PrintWriter out = new PrintWriter(file);
 

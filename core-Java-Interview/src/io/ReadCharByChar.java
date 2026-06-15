@@ -7,9 +7,9 @@ public class ReadCharByChar {
 
 	public static void main(String[] args) throws Exception {
 
-		FileReader file = new FileReader("keyboard.txt");
+		FileReader file = new FileReader("D:\\io\\keyboard.txt");
 
-		FileWriter wfile = new FileWriter("output.txt");
+		FileWriter wfile = new FileWriter("D:\\io\\output.txt");
 
 		int ch = file.read();
 
