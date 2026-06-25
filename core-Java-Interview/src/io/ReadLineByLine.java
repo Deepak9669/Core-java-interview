@@ -6,7 +6,7 @@ import java.io.FileReader;
 public class ReadLineByLine {
 	public static void main(String[] args) throws Exception {
 
-		FileReader file = new FileReader("D:\\io\\keyboard.txt");
+		FileReader file = new FileReader("keyboard.txt");
 
 		BufferedReader reader = new BufferedReader(file);
 

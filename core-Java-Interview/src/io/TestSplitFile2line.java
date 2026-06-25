@@ -9,7 +9,7 @@ import java.io.FileWriter;
 public class TestSplitFile2line {
 	public static void main(String[] args) throws Exception {
 
-		File file = new File("D:\\io\\SplitFile.txt");
+		File file = new File("SplitFile.txt");
 
 		BufferedReader br = new BufferedReader(new FileReader(file));
 
@@ -19,10 +19,15 @@ public class TestSplitFile2line {
 
 		while (line != null) {
 
-			BufferedWriter bw = new BufferedWriter(new FileWriter("D:\\io\\Split" + fileNo + ".txt"));
+			BufferedWriter bw = new BufferedWriter(new FileWriter("Split" + fileNo + ".txt"));
 
 			// 2 lines per file
-			for (int i = 1; i <= 2 && line != null; i++) {
+			for (int i = 1; i <= 2 ; i++) {
+
+				if (line == null) {
+
+					break;
+			}
 
 				bw.write(line);
 				bw.newLine();

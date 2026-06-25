@@ -9,9 +9,9 @@ public class ReadWriteLinebyLine {
 
 	public static void main(String[] args) throws Exception {
 		
-		BufferedReader reader = new BufferedReader(new FileReader("D:\\io\\keyboard.txt"));
+		BufferedReader reader = new BufferedReader(new FileReader("keyboard.txt"));
 		
-		BufferedWriter writer = new BufferedWriter(new FileWriter("D:\\io\\output.txt"));
+		BufferedWriter writer = new BufferedWriter(new FileWriter("output.txt"));
 		
 		String line = reader.readLine();
 		

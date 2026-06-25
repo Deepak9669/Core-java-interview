@@ -10,10 +10,10 @@ public class TestComparator {
 
 		List list = new ArrayList();
 
-		list.add(new Employee(1, "Anand", 5000));
-		list.add(new Employee(3, "Shyam", 3300));
+		list.add(new Employee(1, "Shya", 5000));
+		list.add(new Employee(1, "Shyam", 5000));
 		list.add(new Employee(2, "Ajay", 4000));
-		list.add(new Employee(4, "Aanand", 5000));
+		list.add(new Employee(4, "Anand", 3000));
 
 		EmployeeSortByName byName = new EmployeeSortByName();
 
@@ -25,15 +25,19 @@ public class TestComparator {
 			System.out.println(it.next());
 		}
 
+		System.out.println("<------------By Id or Name------------>");
+
 		EmployeeSortByIdName byIdName = new EmployeeSortByIdName();
 
 		Collections.sort(list, byIdName);
 
 		Iterator it1 = list.iterator();
-		
+
 		while (it1.hasNext()) {
 			System.out.println(it1.next());
 		}
+
+		System.out.println("<------------By All------------>");
 
 		EmployeeSortIDNameSalary byAll = new EmployeeSortIDNameSalary();
 

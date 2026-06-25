@@ -6,7 +6,7 @@ import java.util.Date;
 public class FileInfo {
 	public static void main(String[] args) {
 
-		File f = new File("D:\\io\\keyboard.txt");
+		File f = new File("keyboard.txt");
 
 		if(f.exists()) {
 			
@@ -22,8 +22,8 @@ public class FileInfo {
 			Date d = new Date(f.lastModified());
 			System.out.println("Modified Date : "+ d);
 			
-			long length = f.length();
-			System.out.println("Length : "+ length);
+//			long length = f.length();
+			System.out.println("Length : "+ f.length());
 		}
 	}
 }

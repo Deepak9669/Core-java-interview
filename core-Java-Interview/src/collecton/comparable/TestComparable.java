@@ -10,7 +10,7 @@ public class TestComparable {
 
 		List list = new ArrayList();
 
-		list.add(new Employee(1, "znand", 5000));
+		list.add(new Employee(1, "Anand", 5000));
 		list.add(new Employee(3, "Ravi", 7000));
 		list.add(new Employee(2, "Raj", 5000));
 		list.add(new Employee(4, "Anand", 4000));

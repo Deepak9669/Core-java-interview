@@ -9,17 +9,19 @@ public class TestEmployeeExternalizable {
 
 	public static void main(String[] args) throws Exception {
 
-		Employee e = new Employee(1, "Ram");
+		Employee e = new Employee(12, "Ram");
 
-		ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream("D://IO//Employee.txt"));
+		ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream("Employee.txt"));
 
 		out.writeObject(e);
+		
+		System.out.println(out);
 
 		out.close();
 
 		System.out.println("object serialized successfully");
 
-		ObjectInputStream in = new ObjectInputStream(new FileInputStream("D://IO//Employee.txt"));
+		ObjectInputStream in = new ObjectInputStream(new FileInputStream("Employee.txt"));
 
 		System.out.println(in.readObject());
 

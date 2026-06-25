@@ -23,7 +23,8 @@ public class TestLinkedList {
 		
 		System.out.println(list.indexOf("Shyam"));
 		System.out.println(list.get(0));
-		list.set(2, "Man");
+
+		list.set(1, "Man");
 		System.out.println(list);
 	}
 }

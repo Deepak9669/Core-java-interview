@@ -10,7 +10,7 @@ public class TestFileSplit {
 
 	public static void main(String[] args) throws Exception {
 		
-		File file = new File("D:\\io\\SplitFile.txt");
+		File file = new File("SplitFile.txt");
 		
 		BufferedReader fileToCount = new BufferedReader(new FileReader(file));
 		
@@ -26,13 +26,13 @@ public class TestFileSplit {
 		
 		BufferedReader br = new BufferedReader(new FileReader(file));
 		
-		for(int i=1; i <= count; i++) {
+		String line = br.readLine();
+		for(int i=1; i <= 2; i++) {
 			
-			String line = br.readLine();
 			
 			System.out.println("createFile" + i + " " + line);
 			
-			BufferedWriter bw = new BufferedWriter(new FileWriter("D:\\io\\Split" + i + ".txt"));
+			BufferedWriter bw = new BufferedWriter(new FileWriter("Split" + i + ".txt"));
 			
 			bw.write(line);
 			bw.close();

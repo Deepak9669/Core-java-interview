@@ -4,21 +4,11 @@ public class AutoBoxingUnBoxing {
 
 	public static void main(String[] args) {
 
-//		ab
+		int a = 10;
 
-		String str = "Ram";
+		Integer b = a;  // Auto boxing
 
-		String s = new String(str);
+		int c = a;   // auto unboxing
 
-		System.out.println(s);
-
-
-//		ub
-
-		String str1 = new String("Shyam");
-
-		String s1 = str1;
-
-		System.out.println(s1);
 	}
 }

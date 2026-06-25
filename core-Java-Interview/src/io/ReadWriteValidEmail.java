@@ -9,8 +9,8 @@ public class ReadWriteValidEmail {
 
 	public static void main(String[] args) throws Exception {
 		
-		FileReader source = new FileReader("D:\\io\\Email.txt");
-		FileWriter target = new FileWriter("D:\\io\\ValidEmail.txt");
+		FileReader source = new FileReader("Email.txt");
+		FileWriter target = new FileWriter("ValidEmail.txt");
 		
 		BufferedReader br = new BufferedReader(source);
 		BufferedWriter bw = new BufferedWriter(target);

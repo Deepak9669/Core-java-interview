@@ -24,6 +24,8 @@ public class TestEH {
 		System.out.println(e1.equals(e3));
 
 		System.out.println(e1.hashCode() == e4.hashCode());
+		
+		System.out.println(e1.equals("abc"));
 
 		System.out.println(e1.hashCode());
 		
@@ -33,26 +35,31 @@ public class TestEH {
 		
 		System.out.println(e1);
 		
+		System.out.println("<-------List------->");
+		
+		List list = new ArrayList();
 
-//		List list = new ArrayList();
-//
-//		list.add(e1);
-//		list.add(e2);
-//		
-//		Employee e = new Employee(1, "Ram", 5000);
-//
-//		System.out.println(list.remove(e));
-//
-//		
-//		Set s = new HashSet();
-//		
-//		s.add(e1);
-//		s.add(e2);
-//		s.add(e4);
-//		
-//		
-//		System.out.println(s);
-//		
+		list.add(e1);
+		list.add(e2);
+		list.add(e4);
+
+		Employee e = new Employee(1, "Ram", 5000);
+
+		System.out.println(list.remove(e));
+		
+		System.out.println(list);
+
+		System.out.println("<----------Set------------>");
+		
+		Set s3 = new HashSet();
+		
+		s3.add(e1);
+		s3.add(e2);
+		s3.add(e4);
+		
+		
+		System.out.println(s3);
+		
 		
 
 		
